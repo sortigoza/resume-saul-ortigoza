@@ -2,20 +2,23 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>saul_ortigoza</title><link href='https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext' rel='stylesheet' type='text/css' /><link href='https://fonts.loli.net/css?family=Lato:900,300&subset=latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
 @media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
@@ -24,13 +27,14 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
 button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
 p { orphans: 4; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
@@ -42,11 +46,11 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px !important; }
+figure > table { margin: 0px; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
@@ -62,8 +66,8 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
@@ -71,33 +75,36 @@ div.hr:focus { cursor: none; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
 li { margin: 0px; position: relative; }
 blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print { 
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
-  html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
-  @page { margin: 20mm 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
 .md-math-block:not(:empty)::after { display: none; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
@@ -126,495 +133,485 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
 code { text-align: left; }
-a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
 .html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.md-fences-math .MathJax_SVG_Display, .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: visible; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; zoom: 90%; }
+#math-inline-preview-content { zoom: 1.1; }
 .MathJax_SVG * { transition: none; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
-[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
 table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print { 
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignObject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-math .MathJax_SVG_Display { margin-top: 8px; cursor: default; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) { 
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) { 
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ''; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 
-
-@include-when-export url(https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext);
-@include-when-export url(https://fonts.loli.net/css?family=Lato:900,300&subset=latin-ext);
 
 :root {
-	--control-text-color: #777;
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
 }
 
-/**
- * forked from pixyll.com
- * MIT license
- */
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
-h1,
-.h1,
-.f1 {
-	font-size: 2rem;
-	line-height: 2.5rem;
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
 }
-h2,
-.h2,
-.f2 {
-	font-size: 1.5rem;
-	line-height: 2rem;
-}
-h3,
-.h3,
-.f3 {
-	font-size: 1.25rem;
-	line-height: 1.5rem;
-}
-p,
-.p,
-.f4,
-h4,
-h5,
-h6,
-dl,
-ol,
-ul,
-pre[cid],
-div[cid],
-#typora-source {
-	font-size: 1.125rem;
-	line-height: 1.5rem;
-}
-
-h4 {
-	font-size: 1.13rem;
-}
-/*
- Pixyll
- A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.
- Best served with BASSCSS (http://jxnblk.github.io/basscss)
- Crafted with <3 by John Otander (@4lpine) - ©2015 John Otander MIT License http://opensource.org/licenses/MIT
-
-*/
 
 body {
-	font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", Serif;
-	line-height: 1.5rem;
-	font-weight: 400;
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
 }
 
 #write {
-	max-width: 914px;
-	color: #333;
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
 }
 
-img {
-	width: auto;
-	max-width: 100%;
-}
-body {
-	font-size: 1.5rem;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
 }
 
-.ty-table-edit {
-	background: #ededed;
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
 }
 
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
 table {
-	width: 100%;
-	font-size: 1.125rem;
+    padding: 0;
+    word-break: initial;
 }
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td,
-table > tfoot > tr > th,
-table > tfoot > tr > td {
-	padding: 12px;
-	line-height: 1.2;
-	vertical-align: top;
-	border-top: 1px solid #333;
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
 }
-table > thead > tr > th {
-	vertical-align: bottom;
-	border-bottom: 2px solid #333;
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
 }
-table > caption + thead > tr:first-child > th,
-table > caption + thead > tr:first-child > td,
-table > colgroup + thead > tr:first-child > th,
-table > colgroup + thead > tr:first-child > td,
-table > thead:first-child > tr:first-child > th,
-table > thead:first-child > tr:first-child > td {
-	border-top: 0;
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
 }
-table > tbody + tbody {
-	border-top: 2px solid #333;
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
 }
-p {
-	font-weight: 300;
-	line-height: 1.5;
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
 }
-abbr {
-	border-bottom: 1px black dotted;
-	cursor: help;
-}
-pre,
-code {
-	font-family: Menlo, Monaco, "Courier New", monospace;
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
 }
 
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
 code,
-.md-fences  {
-	color: #7a7a7a;
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
 }
 
 .md-fences {
-	padding: 1.125em;
-	margin-bottom: 0.88em;
-	font-size: 1rem;
-	border: 1px solid #7a7a7a;
-	padding-bottom: 0.5rem;
-	padding-top: 0.5rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
 }
 
-blockquote {
-	padding: 1.33em;
-	font-style: italic;
-	border-left: 5px solid #7a7a7a;
-	color: #555;
-}
-blockquote em {
-	color: #000;
-}
-blockquote footer {
-	font-size: .85rem;
-	font-style: normal;
-	background-color: #fff;
-	color: #7a7a7a;
-	border-color: transparent;
-}
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-	font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-	font-weight: bold;
-	line-height: 1.2;
-	margin: 1em 0 0.5em;
-}
-@media screen and (min-width: 48em) {
-	.h1,
-	h1 {
-		font-size: 3.250rem;
-	}
-	.h2,
-	h2 {
-		font-size: 2.298rem;
-	}
-	.h3,
-	h3 {
-		font-size: 1.625rem;
-	}
-	.h4,
-	h4 {
-		font-size: 1.3rem;
-	}
-	#write>h4.md-focus:before,
-	#write>h5.md-focus:before,
-	#write>h6.md-focus:before{
-		top: 1px;
-	}
-	.p,
-	p,
-	li {
-		font-size: 1.25rem;
-		line-height: 1.8;
-	}
-	table {
-		font-size: 1.25rem;
-	}
-}
-@media (max-width: 48em) {
-	blockquote {
-		margin-left: 1rem;
-		margin-right: 0;
-		padding: 0.5em;
-	}
-	.h1,
-	h1 {
-		font-size: 2.827rem;
-	}
-	.h2,
-	h2 {
-		font-size: 1.999rem;
-	}
-	.h3,
-	h3 {
-		font-size: 1.413rem;
-	}
-	.h4,
-	h4 {
-		font-size: 1.3rem;
-	}
-}
-@media screen and (min-width: 64em) {
-	.h1,
-	h1 {
-		font-size: 4.498rem;
-	}
-	.h2,
-	h2 {
-		font-size: 2.29rem;
-	}
-	.h3,
-	h3 {
-		font-size: 1.9rem;
-	}
-	.h4,
-	h4 {
-		font-size: 1.591rem;
-	}
-	#write>h4.md-focus:before{
-		top:4px;
-	}
-}
-a {
-	color: #463F5C;
-	text-decoration: underline;
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
 }
 
-#write {
-	padding-top: 2rem;
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
 }
 
+.md-fences {
+	background-color: #f8f8f8;
+}
 #write pre.md-meta-block {
-	min-height: 35px;
-	padding: 0.5em 1em;
-	white-space: pre;
-	border: 0px;
-
-	border-left: 30px #f8f8f8 solid;
-	border-right: 30px #f8f8f8 solid;
-	width: 100vw;
-	max-width: calc(100% + 60px);
-
-	margin-left: -30px;
-	margin-bottom: 2em;
-	margin-top: -2010px;
-	padding-top: 2000px;
-	padding-bottom: 10px;
-	line-height: 1.5em;
-	color: #7a7a7a;
-	background-color: #fafafa;
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-	font-weight: 300;
-	clear: both;
-	padding-left: 0;
-	font-size:1.125rem;
-}
-.md-image>.md-meta {
-	color: #463F5C
-}
-.footnotes {
-	font-size:1.1rem;
-}
-.md-tag {
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-}
-.code-tooltip {
-	background: white;
-}
-.code-tooltip-content {
-	font-size: 1.1rem;
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
 }
 
-.task-list{
-	padding-left: 0;
-}
-
-.md-task-list-item {
-	padding-left:34px;
-}
-
-.md-task-list-item > input{
-	width: 1.25rem;
-	height: 1.25rem;
-	display: block;
-	-webkit-appearance: initial;
-	top: -0.5rem;
-	margin-left: -1.6em;
-	margin-top: calc(1rem - 7px);
-	border: none;
-}
-
-.md-task-list-item > input:focus{
-	outline: none;
-	box-shadow: none;
-}
-
-.md-task-list-item > input:before{
-	border: 1px solid #555;
-	border-radius: 1.5rem;
-	width: 1.5rem;
-	height: 1.5rem;
-	background: #fff;
-	content: ' ';
-	transition: background-color 200ms ease-in-out;
-	display: block;
-}
-
-.md-task-list-item > input:checked:before,
-.md-task-list-item > input[checked]:before{
-	background: #333;
-	border-width: 2px;
-	display:inline-block;
-	transition: background-color 200ms ease-in-out;
-}
-
-.md-task-list-item > input:checked:after,
-.md-task-list-item > input[checked]:after {
-	opacity: 1;
-}
-
-.md-task-list-item > input:after {
-	opacity: 1;
-	-webkit-transition: opacity 0.05s ease-in-out;
-	-moz-transition: opacity 0.05s ease-in-out;
-	transition: opacity 0.05s ease-in-out;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	position: absolute;
-	top: 0.4375rem;
-	left: 0.28125rem;
-	width: 0.9375rem;
-	height: 0.5rem;
-	border: 3px solid #fff;
-	border-top: 0;
-	border-right: 0;
-	content: ' ';
-	opacity: 0;
-}
-
-.md-tag {
-	color:inherit;
-}
-
-.md-toc:focus .md-toc-content{
-	margin-top: 19px;
-}
-
-#typora-sidebar {
-	font-size:1rem !important;
-}
-
-.html-for-mac #typora-sidebar {
-	background-color:white;
-}
-
-.outline-content li, .outline-content ul {
-	font-size:1rem !important;
-}
-
-.outline-title {
-	line-height: inherit;
-	margin-top: 10px;
-}
-
-.outline-expander {
-	width: 18px;
-}
-
-.outline-expander:before {
- 	content: "+";
-	font-family: inherit;
-	color: rgb(108, 108, 108); 
-  	font-size: 1.5rem;
- 	top: 0.1rem;
-}
-
-.outline-expander:hover:before {
-	content: "+";
-}
-
-.outline-item-open>.outline-item>.outline-expander:before{
-	content: "-";
-}
-
-/** source code mode */
-#typora-source {
-	font-family: Courier, monospace;
-    color: #6A6A6A;
-}
-
-.os-windows #typora-source {
-	font-family: inherit;
-}
-
-.cm-s-typora-default .cm-header, 
-.cm-s-typora-default .cm-property,
-.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
-	color: #428bca;
-}
-
-.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
-	color: #777777;
-}
-
-.preference-item-hint {
-	margin-top: 16px;
-}
-
-.md-diagram-panel {
-	margin-top: 24px;
-	margin-left: -1.2em;
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
 }
 
 .md-mathjax-midline {
-	background: #fafafa;
+    background: #fafafa;
 }
 
-.enable-diagrams pre.md-fences[lang="sequence"] .code-tooltip,
-.enable-diagrams pre.md-fences[lang="flow"] .code-tooltip,
-.enable-diagrams pre.md-fences[lang="mermaid"] .code-tooltip {
-    bottom: -3.4em;
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
 }
 
 .dropdown-menu .divider {
-	border-color: #e5e5e5;
+    border-color: #e5e5e5;
+    opacity: 0.4;
 }
 
- .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
-</style>
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ :root {--mermaid-font-zoom:1em ;}  @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
+</style><title>saul_ortigoza</title>
 </head>
-<body class='typora-export' >
-<div  id='write'  class = 'is-mac'><h1><a name='header-n0' class='md-header-anchor '></a>Saul Ortigoza</h1><h2><a name='header-n2' class='md-header-anchor '></a>Sr. Cloud Architect / Site Reliability Engineer / DevOps</h2><p>Cloud: AWS GCP | Containers: Kubernetes Docker | Practices: CI CD DevOps QA | Serverless | Tools: Terraform Jenkins Ansible Automation | Languages: Python Golang Ruby Java JavaScript | Critical Thinking | Leadership | Travel</p><hr /><p>email: <a href='mailto:sortigoza.jobs@gmail.com' target='_blank' class='url'>sortigoza.jobs@gmail.com</a>, twitter: <a href='https://twitter.com/saul_ortigoza'>@saul_ortigoza</a>, github: <a href='https://github.com/sortigoza'>@sortigoza</a>, linkedin: <a href='https://www.linkedin.com/in/saul-ortigoza/'>saul-ortigoza</a> </p><hr /><h2><a name='header-n7' class='md-header-anchor '></a>Experience</h2><p>2017-present
-:   <strong>Sr. Site Reliability Engineer / DevOps Engineer</strong>; Wizeline</p><ul><li>Responsible for cloud environments for some of the company&#39;s and customer&#39;s projects.</li><li>Enabled development teams to deploy releases following CI/CD practices.</li><li>Design, planned and implemented cloud solutions architectures.</li><li>Implemented, monitored and improved devops metrics.</li><li>Lead SRE for the internal bot platform.</li><li>Gave talks about devops practices, containerization, and CI/CD practices.</li><li>Successfully prepared the team and infrastructure to obtain a SOC2 certification.</li><li>SME: Kubernetes, Containers, Terraform, Cloud Architectures, and Software Architectures.</li><li>Experience with AWS, GCP, Azure, Microservices, Infrastructure as Code, Linux, Jenkins, CodeBuild, CircleCI, Vault, Helm, EKS, Kops, Airflow, ETLs.</li></ul><p>2016-2017
-:   <strong>System Test Manager</strong>; Continental</p><ul><li>Managed a 5+ people team for 4 simultaneous projects. </li><li>Planning in traditional and Kanban methodologies, monitoring, controlling and risk assessment. </li><li>Active participation and global collaboration in the test manager community.</li></ul><p>2014-2017
-:   <strong>Test Automation Engineer</strong>; Continental</p><ul><li>Architected and implemented the test tool-chain and framework for the test department (test generators, keyword driven testing, model-based testing, data-driven testing, pairwise, automation, analysis and reporting tools) for embedded systems.</li><li>Setup and administration of Linux application servers for the QA department (Web applications, databases, Gitlab, Nginx, RESTful APIs).</li><li>Reference for programming and automation solutions.</li><li>Tooling application development for testing support using Ruby, Python, and Java (Backend and libraries).</li><li>Certified by <a href='https://drive.google.com/file/d/0B47wJF8CvsssRGY3dkxaZ0Jfa2M/view'>ISTQB in Advanced Test Analyst Level</a>.</li><li>Worked with, the Tire Pressure Monitoring System (TPMS) algorithms and functions, the PASE system, and computer vision algorithms.</li><li>Designed and automated generic test specs for multiple functionalities and platforms.</li></ul><p>2015-2017
-:   <strong>Lead Software Architect</strong>; AppCo (Startup)</p><ul><li>Lead a 5 people team.</li><li>Architecting and designing software applications using Ruby on Rails, Android, Sinatra, NodeJS.</li><li>Analysis, evaluation, and selection of development technologies.</li><li>Developed web and mobile applications.</li><li>Integration with third-party services e.g. Facebook, Google, Paypal, Conekta, Wordpress.</li><li>Automated deployment and provisioning.</li></ul><p>2013-2014
-:   <strong>Software Engineer</strong>; Interactive Cozumel</p><h2><a name='header-n68' class='md-header-anchor '></a>Education</h2><p>2009-2013
-:   <strong>Bachelor&#39;s degree, Mechatronics, Robotics, and Automation Engineering</strong>; The Institute of Technology at Linköping University</p><ul><li>Courses in Signal Processing, Advanced Control, Machine Learning, Advanced Mathematics.</li><li>Projects in Machine Learning, DSP, Sensor Fusion Algorithms, and Digital Filters</li></ul><p>2009-2013
-:   <strong>Bachelor&#39;s degree, Mechatronics, Robotics, and Automation Engineering</strong>; Instituto Tecnológico y de Estudios Superiores de Monterrey / ITESM</p></div>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='saul-ortigoza'><span>Saul Ortigoza</span></h1><h2 id='sr-staff-cloud-architect--site-reliability-engineer--devops--engineering-manager'><span>Sr. Staff Cloud Architect / Site Reliability Engineer / DevOps / Engineering Manager</span></h2><p><span>Cloud (+5y): AWS GCP | Containers (+5y): Kubernetes Docker | Practices (+6y): CI CD DevOps QA | Serverless | Tools (5+y): Terraform Jenkins Ansible Automation | Languages: Python (+10y) Ruby (+4y) Golang (+2y) Java JavaScript | Critical Thinking | Leadership | Strategy</span></p><hr /><p><span>email: </span><a href='mailto:sortigoza.jobs@gmail.com' target='_blank' class='url'>sortigoza.jobs@gmail.com</a><span>, twitter: </span><a href='https://twitter.com/saul_ortigoza'><span>@saul_ortigoza</span></a><span>, github: </span><a href='https://github.com/sortigoza'><span>@sortigoza</span></a><span>, linkedin: </span><a href='https://www.linkedin.com/in/saul-ortigoza/'><span>saul-ortigoza</span></a><span> , </span><a href='https://www.sortigoza.com/saul_ortigoza.pdf'><span>pdf link</span></a></p><hr /><h2 id='certifications'><span>Certifications</span></h2><ul><li><span>Certified by </span><a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=4&amp;t=c&amp;d=2020-02-28&amp;ci=AWS01122964'><span>Amazon Web Services: Solutions Architect Professional</span></a></li><li><span>Certified by </span><a href='https://drive.google.com/file/d/0B47wJF8CvsssRGY3dkxaZ0Jfa2M/view'><span>ISTQB in Advanced Test Analyst Level</span></a><span>.</span></li></ul><hr /><h2 id='experience'><span>Experience</span></h2><p><span>2020-present</span>
+<span>: </span><strong><span>SRE + Cloud Operations Discipline Lead / Engineering Manager</span></strong><span>; Wizeline</span></p><ul><li><span>Set direction for the SRE discipline: OKRs, SRE Communities.</span></li><li><span>Level up the discipline: Coaching, mentoring, show-and-tell initiatives.</span></li><li><span>Scale the SRE and cloud organization: Hiring (x8 growth), training, publishing articles.</span></li><li><span>Increase employee engagement.</span></li><li><span>Manage a team of up to 15 SREs.</span></li></ul><p><span>2019-present</span>
+<span>: </span><strong><span>Senior Staff SRE / DevOps</span></strong><span>; Wizeline</span></p><ul><li><span>Architected and lead the next-gen data platform initiative for a FinTech.</span></li><li><span>Guided and provided valuable input for multiple clients and projects.</span></li><li><span>Prepared and lead the team on getting the AWS DevOps-competence.</span></li></ul><p><span>2017-2019</span>
+<span>:   </span><strong><span>Senior Site Reliability Engineer / DevOps Engineer</span></strong><span>; Wizeline</span></p><ul><li><span>Responsible for cloud environments for some of the company and customer projects.</span></li><li><span>Enabled development teams to deploy releases following CI/CD practices.</span></li><li><span>Designed, planned, and implemented cloud solution architectures for web and data services.</span></li><li><span>Implemented, monitored, and improved DevOps metrics.</span></li><li><span>Lead SRE for the internal bots platform and other projects.</span></li><li><span>Gave talks about DevOps practices, containerization, and CI/CD practices.</span></li><li><span>Successfully prepared the team and infrastructure to obtain a SOC2 certification.</span></li><li><span>SME: AWS, Kubernetes, Containers, Terraform, Cloud Architectures, and Software Architectures.</span></li><li><span>Experience with AWS, GCP, Azure, Microservices, Infrastructure as Code, Linux, Jenkins, CodeBuild, CircleCI, Vault, Helm, EKS, Kops, Airflow, ETLs.</span></li></ul><p><span>2016-2017</span>
+<span>:   </span><strong><span>Systems Test Manager</span></strong><span>; Continental</span></p><ul><li><span>Managed a 5+ people team for 4 simultaneous projects. </span></li><li><span>Planning in traditional and Kanban methodologies, monitoring, controlling, and risk assessment. </span></li><li><span>Active participation and global collaboration in the test manager community.</span></li></ul><p><span>2014-2017</span>
+<span>:   </span><strong><span>Test Automation Engineer</span></strong><span>; Continental</span></p><ul><li><span>Architected and implemented the test tool-chain and framework for the test department (test generators, keyword driven testing, model-based testing, data-driven testing, pairwise, automation, analysis, and reporting tools) for embedded systems.</span></li><li><span>Setup and administration of Linux application servers for the QA department (web applications, databases, Gitlab, Nginx, RESTful APIs).</span></li><li><span>Reference for programming and automation solutions.</span></li><li><span>Tooling application development for testing support using Ruby, Python, and Java (Backend and libraries).</span></li><li><span>Worked with the Tire Pressure Monitoring System (TPMS) algorithms and functions, the PASE system, and computer vision algorithms.</span></li><li><span>Designed and automated generic test specs for multiple functionalities and platforms.</span></li></ul><p><span>2015-2017</span>
+<span>:   </span><strong><span>Lead Software Architect</span></strong><span>; AppCo (Startup)</span></p><ul><li><span>Lead a 5 people team.</span></li><li><span>Architecting and designing software applications using Ruby on Rails, Android, Sinatra, NodeJS.</span></li><li><span>Analysis, evaluation, and selection of development technologies.</span></li><li><span>Developed web and mobile applications.</span></li><li><span>Integration with third-party services, e.g., Facebook, Google, Paypal, Conekta, Wordpress.</span></li><li><span>Automated deployment and provisioning.</span></li></ul><p><span>2013-2014</span>
+<span>:   </span><strong><span>Software Engineer</span></strong><span>; Interactive Cozumel</span></p><h2 id='education'><span>Education</span></h2><p><span>2009-2013</span>
+<span>:   </span><strong><span>Bachelor&#39;s degree, Mechatronics, Robotics, and Automation Engineering</span></strong><span>; The Institute of Technology at Linköping University</span></p><ul><li><span>Courses in Signal Processing, Advanced Control, Machine Learning, Advanced Mathematics.</span></li><li><span>Projects in Machine Learning, DSP, Sensor Fusion Algorithms, and Digital Filters</span></li></ul><p><span>2009-2013</span>
+<span>:   </span><strong><span>Bachelor&#39;s degree, Mechatronics, Robotics, and Automation Engineering</span></strong><span>; Instituto Tecnológico y de Estudios Superiores de Monterrey / ITESM</span></p><p>&nbsp;</p><h2 id='additional-notes-results'><span>Additional Notes: Results</span></h2><p><span>As an SRE Engineering Manager, I always provided valuable and prompt feedback to all the Engineers, understood and help them grow in their career and align them with the Discipline and company goals, resulting in a timespan of 1.5 years: a high performing team, where everyone has a mentor or a mentee, 5 promotions (approved by a committee), 5 projects with long recurring renovations, 70% of the team participation in Hiring initiatives, more than 65% of the team certified in either AWS, GCP, Terraform, k8s, and 5 SRE community champions.</span></p><p><span>The data-platform created for the FinTech customer improved the data team capabilities (CDC, parallel-compute, site-to-site VPN tunnels, schema-on-read, SFTP-to-S3), scalability, performance, and compliance. It went from a brittle, manual, and GUI-based flow to a fully compliant CI/CD process to introduce changes, to the infrastructure, data models, and DAGs. New database integrations improved from spending 3+days per table to be able to integrate a whole schema in 1 hour.</span></p><p>&nbsp;</p><p><span>Other important initiatives for the FinTech customer included:</span></p><ul><li><span>Defining the AWS permissions strategy and implementing an Okta-AWS permissions and authentication system impacting how the whole company authenticated to AWS resulting in a more efficient approval and permissions assignment process (less than a day from weeks), and auditable file of all roles and permissions, a generators and configuration strategy to manager permissions complexity and enable composability.</span></li><li><span>Refactoring some of the data-intensive and ML microservices to enable extensibility, some of these services were migrated from Scala and JavaScript to python to leverage the team skills. The refactored services have a 90%+ coverage, capability for A/B testing, observable, documented, and ETLed.</span></li><li><span>Smaller initiatives included the discovery and PoC of a no-code/low-code solution in track to improve the experience and efficiency of the operation teams. Automated CD pipelines for the legacy infrastructure as code. Helped in the migration of a monolith to Kubernetes. Defined a strategy and automation to manage kubernetes manifests with Jsonnet, resulting in DRY and extensible configurations. Provided valuable input for the kops to EKS migration.</span></li></ul><h2 id='additional-notes-learning'><span>Additional Notes: Learning</span></h2><p><span>On the technical side, some of the things I have learned in the last year are:</span></p><ul><li><span>Clojure, to be exposed to different programming perspectives and practice functional programming. Read the book Clojure Applied. </span></li><li><span>Snowflake, DBT, DVC, SageMaker I needed to get familiar with some of these technologies to have a better understanding and provide a better recommendation to the data team. I participated in a hackathon where we used DVC to demonstrate how can we ensure model reproducibility, compliance, and do an ML pipeline.</span></li><li><span>GraphQL</span></li><li><span>Currently reading Patterns of Enterprise Application Architecture by Martin Fowler</span></li><li><span>Also read: Software Design Decoded, Engineering Software Products for a refresher</span></li></ul><p><span>On the leadership and management side, read and applied some books:</span></p><ul><li><span>Radical Candor by Kim Scott</span></li><li><span>The Score Takes Care of Itself by Bill Walsh</span></li><li><span>Principles by Ray Dalio</span></li><li><span>Infonomics by Douglas B. Laney</span></li></ul><h2 id='additional-notes-articles'><span>Additional Notes: Articles</span></h2><ul><li><a href='https://www.wizeline.com/how-to-ensure-devops-practices-in-a-project/'><span>How to ensure DevOps practices in a project</span></a></li><li><a href='https://searchitoperations.techtarget.com/feature/A-day-in-the-life-What-does-a-site-reliability-engineer-do'><span>A day in the life: What does a site reliability engineer do?</span></a></li></ul></div></div>
 </body>
 </html>
