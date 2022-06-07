@@ -2,7 +2,7 @@
 
 ## Sr. Staff Cloud Architect / Site Reliability Engineer / DevOps / Engineering Manager
 
-Cloud (+5y): AWS GCP | Containers (+5y): Kubernetes Docker | Practices (+6y): CI CD DevOps QA | Serverless | Tools (5+y): Terraform Jenkins Ansible Automation | Languages: Python (+10y) Ruby (+4y) Golang (+2y) Java JavaScript | Critical Thinking | Leadership | Strategy
+Cloud (+6y): AWS GCP | Containers (+6y): Kubernetes Docker | Practices (+7y): CI CD DevOps QA | Serverless | Tools (6+y): Terraform Jenkins Ansible Automation | Languages: Python (+10y) Ruby (+4y) Golang (+2y) Java JavaScript | Critical Thinking | Leadership | Strategy
 
 ----------------------------
 email: sortigoza.jobs@gmail.com, twitter: [@saul_ortigoza](https://twitter.com/saul_ortigoza), github: [@sortigoza](https://github.com/sortigoza), linkedin: [saul-ortigoza](https://www.linkedin.com/in/saul-ortigoza/) , [pdf link](https://www.sortigoza.com/saul_ortigoza.pdf)
@@ -18,6 +18,9 @@ email: sortigoza.jobs@gmail.com, twitter: [@saul_ortigoza](https://twitter.com/s
 
 ## Experience
 
+2022-present
+: **SRE + Data + Software Engineer**; Cerby
+
 2020-present
 : **SRE + Cloud Operations Discipline Lead / Engineering Manager**; Wizeline
 
@@ -25,7 +28,7 @@ email: sortigoza.jobs@gmail.com, twitter: [@saul_ortigoza](https://twitter.com/s
 - Level up the discipline: Coaching, mentoring, show-and-tell initiatives.
 - Scale the SRE and cloud organization: Hiring (x8 growth), training, publishing articles.
 - Increase employee engagement.
-- Manage a team of up to 15 SREs.
+- Manage a multidiciplinary team of up to 24 engineers.
 
 2019-present
 : **Senior Staff SRE / DevOps**; Wizeline
@@ -50,8 +53,8 @@ email: sortigoza.jobs@gmail.com, twitter: [@saul_ortigoza](https://twitter.com/s
 2016-2017
 :   **Systems Test Manager**; Continental
 
-* Managed a 5+ people team for 4 simultaneous projects. 
-* Planning in traditional and Kanban methodologies, monitoring, controlling, and risk assessment. 
+* Managed a 5+ people team for 4 simultaneous projects.
+* Planning in traditional and Kanban methodologies, monitoring, controlling, and risk assessment.
 * Active participation and global collaboration in the test manager community.
 
 2014-2017
@@ -109,7 +112,7 @@ Other important initiatives for the FinTech customer included:
 
 On the technical side, some of the things I have learned in the last year are:
 
-- Clojure, to be exposed to different programming perspectives and practice functional programming. Read the book Clojure Applied. 
+- Clojure, to be exposed to different programming perspectives and practice functional programming. Read the book Clojure Applied.
 - Snowflake, DBT, DVC, SageMaker I needed to get familiar with some of these technologies to have a better understanding and provide a better recommendation to the data team. I participated in a hackathon where we used DVC to demonstrate how can we ensure model reproducibility, compliance, and do an ML pipeline.
 - GraphQL
 - Currently reading Patterns of Enterprise Application Architecture by Martin Fowler
