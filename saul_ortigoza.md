@@ -100,36 +100,40 @@ Experienced technology leader with a demonstrated history of working in software
 
 
 
-## Additional Notes: Results
+## Accomplishments
 
-As an SRE Engineering Manager, I always provided valuable and prompt feedback to all the Engineers, understood and help them grow in their career and align them with the Discipline and company goals, resulting in a timespan of 1.5 years: a high performing team, where everyone has a mentor or a mentee, 5 promotions (approved by a committee), 5 projects with long recurring renovations, 70% of the team participation in Hiring initiatives, more than 65% of the team certified in either AWS, GCP, Terraform, k8s, and 5 SRE community champions.
+As an **SRE Engineering Manager**, I've consistently provided valuable and timely feedback to all Engineers, helping them align their career growth with the Discipline and company goals. Over a span of 2+ years, this has resulted in:
+- A high-performing team where everyone is either a mentor or a mentee.
+- Five plus promotions approved by a committee.
+- Five plus projects with long recurring renovations.
+- 70% team participation in Hiring initiatives.
+- More than 65% of the team certified in AWS, GCP, Terraform, k8s.
+- Five SRE community champions.
 
-The data-platform created for the FinTech customer improved the data team capabilities (CDC, parallel-compute, site-to-site VPN tunnels, schema-on-read, SFTP-to-S3), scalability, performance, and compliance. It went from a brittle, manual, and GUI-based flow to a fully compliant CI/CD process to introduce changes, to the infrastructure, data models, and DAGs. New database integrations improved from spending 3+days per table to be able to integrate a whole schema in 1 hour.
+For a FinTech customer, the data-platform we created significantly improved the data team's capabilities, scalability, performance, and compliance. The platform transformed from a brittle, manual, and GUI-based flow to a fully compliant CI/CD process, enabling swift changes in infrastructure, data models, and DAGs. The time spent on new database integrations reduced from 3+ days per table to integrating a whole schema in just 1 hour.
 
+Other key initiatives for the FinTech customer included:
+- Redefining the AWS permissions strategy and implementing an Okta-AWS permissions and authentication system, making the entire company's AWS authentication more efficient.
+- Refactoring data-intensive and ML microservices to enable extensibility.
+- Discovering and implementing a no-code/low-code solution aimed at improving the experience and efficiency of the operation teams.
+- Contributing to the migration of a monolith to Kubernetes and defining a strategy to manage Kubernetes manifests with Jsonnet.
 
+## Continued Learning
 
-Other important initiatives for the FinTech customer included:
+In the past year, I've expanded my technical knowledge in several areas:
 
-- Defining the AWS permissions strategy and implementing an Okta-AWS permissions and authentication system impacting how the whole company authenticated to AWS resulting in a more efficient approval and permissions assignment process (less than a day from weeks), and auditable file of all roles and permissions, a generators and configuration strategy to manager permissions complexity and enable composability.
-- Refactoring some of the data-intensive and ML microservices to enable extensibility, some of these services were migrated from Scala and JavaScript to python to leverage the team skills. The refactored services have a 90%+ coverage, capability for A/B testing, observable, documented, and ETLed.
-- Smaller initiatives included the discovery and PoC of a no-code/low-code solution in track to improve the experience and efficiency of the operation teams. Automated CD pipelines for the legacy infrastructure as code. Helped in the migration of a monolith to Kubernetes. Defined a strategy and automation to manage kubernetes manifests with Jsonnet, resulting in DRY and extensible configurations. Provided valuable input for the kops to EKS migration.
+- **Clojure:** To expose myself to different programming perspectives and practice functional programming. I've read the book "Clojure Applied."
+- **Snowflake, DBT, DVC, SageMaker:** I familiarized myself with these technologies to better understand and provide recommendations to the data team.
+- **GraphQL:** Acquired practical knowledge and application.
+- **Software Design:** Read "Patterns of Enterprise Application Architecture" by Martin Fowler, "Software Design Decoded", and "Engineering Software Products" for a refresher.
 
-## Additional Notes: Learning
+In leadership and management, I've read and applied principles from several books:
 
-On the technical side, some of the things I have learned in the last year are:
+- "Radical Candor" by Kim Scott
+- "The Score Takes Care of Itself" by Bill Walsh
+- "Principles" by Ray Dalio
+- "Infonomics" by Douglas B. Laney
 
-- Clojure, to be exposed to different programming perspectives and practice functional programming. Read the book Clojure Applied.
-- Snowflake, DBT, DVC, SageMaker I needed to get familiar with some of these technologies to have a better understanding and provide a better recommendation to the data team. I participated in a hackathon where we used DVC to demonstrate how can we ensure model reproducibility, compliance, and do an ML pipeline.
-- GraphQL
-- Currently reading Patterns of Enterprise Application Architecture by Martin Fowler
-- Also read: Software Design Decoded, Engineering Software Products for a refresher
-
-On the leadership and management side, read and applied some books:
-
-- Radical Candor by Kim Scott
-- The Score Takes Care of Itself by Bill Walsh
-- Principles by Ray Dalio
-- Infonomics by Douglas B. Laney
 
 ## Additional Notes: Articles
 
