@@ -36,16 +36,18 @@ Experienced technology leader with a demonstrated history of working in software
 - Designed and developed a global message bus system for the platform.
 - Created the Zero-knowledge and local-encryption architectures.
 
-**Wizeline** (2020-Present)
+**Wizeline** (2020-2022)
 *Cloud Operations Discipline Lead / Engineering Manager*
+
 - Set the direction for the SRE discipline by establishing OKRs, SRE Communities.
 - Improved the SRE discipline through coaching, mentoring, and initiating show-and-tell initiatives.
 - Grew the SRE and cloud organization through hiring, training, and publishing articles (8x growth).
 - Improved employee engagement.
 - Managed a multi-disciplinary team of up to 24 engineers.
 
-**Wizeline** (2019-Present)
+**Wizeline** (2019-2022)
 *Senior Staff SRE / DevOps*
+
 - Led the architecture and development of the next-gen data platform initiative for a FinTech client.
 - Provided valuable guidance and input to multiple clients and projects.
 - Led the team to achieve AWS DevOps-competence.
