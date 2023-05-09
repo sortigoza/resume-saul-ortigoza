@@ -2,7 +2,7 @@
 
 ## Sr. Staff Cloud Architect / Site Reliability Engineer / DevOps / Engineering Manager
 
-Cloud (+6y): AWS GCP | Containers (+6y): Kubernetes Docker | Practices (+7y): CI CD DevOps QA | Serverless | Tools (6+y): Terraform Jenkins Ansible Automation | Languages: Python (+10y) Ruby (+4y) Golang (+2y) Java JavaScript | Critical Thinking | Leadership | Strategy
+Cloud (+7y): AWS GCP | Containers (+7y): Kubernetes Docker | Practices (+8y): CI CD DevOps QA | Serverless | Tools (7+y): Terraform Jenkins Ansible Automation | Languages: Python (+10y) Ruby (+4y) Golang (+2y) Java JavaScript | Critical Thinking | Leadership | Strategy
 
 ----------------------------
 email: sortigoza.jobs@gmail.com, twitter: [@saul_ortigoza](https://twitter.com/saul_ortigoza), github: [@sortigoza](https://github.com/sortigoza), linkedin: [saul-ortigoza](https://www.linkedin.com/in/saul-ortigoza/) , [pdf link](https://www.sortigoza.com/saul_ortigoza.pdf)
@@ -20,6 +20,11 @@ email: sortigoza.jobs@gmail.com, twitter: [@saul_ortigoza](https://twitter.com/s
 
 2022-present
 : **SRE + Data + Software Engineer**; Cerby
+
+- Architected and developed the application authorization (RBAC) system
+- Designed and contributed to a series of EPM features: Teams, Secrets, Collections, Partnerships
+- Designed and developed the platform global message bus system
+- Architected and developed the Zero-knowledge and local-encryption architectures
 
 2020-present
 : **SRE + Cloud Operations Discipline Lead / Engineering Manager**; Wizeline
