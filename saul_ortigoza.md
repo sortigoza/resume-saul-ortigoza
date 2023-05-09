@@ -2,100 +2,101 @@
 
 ## Sr. Staff Cloud Architect / Site Reliability Engineer / DevOps / Engineering Manager
 
-Cloud (+7y): AWS GCP | Containers (+7y): Kubernetes Docker | Practices (+8y): CI CD DevOps QA | Serverless | Tools (7+y): Terraform Jenkins Ansible Automation | Languages: Python (+10y) Ruby (+4y) Golang (+2y) Java JavaScript | Critical Thinking | Leadership | Strategy
+Experienced technology leader with a demonstrated history of working in software development and cloud computing. Proficient in a variety of languages, tools, and practices.
+
+**Cloud (7+ years):** AWS, GCP
+**Containers (7+ years):** Kubernetes, Docker
+**Practices (8+ years):** CI/CD, DevOps, QA, Serverless
+**Tools (7+ years):** Terraform, Jenkins, Ansible, Automation
+**Languages:** Python (10+ years), Ruby (4+ years), Golang (2+ years), Java, JavaScript
+**Soft Skills:** Critical Thinking, Leadership, Strategy
 
 ----------------------------
-email: sortigoza.jobs@gmail.com, twitter: [@saul_ortigoza](https://twitter.com/saul_ortigoza), github: [@sortigoza](https://github.com/sortigoza), linkedin: [saul-ortigoza](https://www.linkedin.com/in/saul-ortigoza/) , [pdf link](https://www.sortigoza.com/saul_ortigoza.pdf)
+**Email:** [sortigoza.jobs@gmail.com](mailto:sortigoza.jobs@gmail.com) 
+**Twitter:** [@saul_ortigoza](https://twitter.com/saul_ortigoza)
+**GitHub:** [@sortigoza](https://github.com/sortigoza)
+**LinkedIn:** [saul-ortigoza](https://www.linkedin.com/in/saul-ortigoza/)
+**Resume:** [PDF Link](https://www.sortigoza.com/saul_ortigoza.pdf)
 
 ----------------------------
 
 ## Certifications
 
-* Certified by [Amazon Web Services: Solutions Architect Professional](https://www.certmetrics.com/amazon/public/badge.aspx?i=4&t=c&d=2020-02-28&ci=AWS01122964)
-* Certified by [ISTQB in Advanced Test Analyst Level](https://drive.google.com/file/d/0B47wJF8CvsssRGY3dkxaZ0Jfa2M/view).
+* [Amazon Web Services: Solutions Architect Professional](https://www.certmetrics.com/amazon/public/badge.aspx?i=4&t=c&d=2020-02-28&ci=AWS01122964) (Certified)
+* [ISTQB Advanced Test Analyst Level](https://drive.google.com/file/d/0B47wJF8CvsssRGY3dkxaZ0Jfa2M/view) (Certified)
 
 ----------------------------
 
-## Experience
+## Professional Experience
 
-2022-present
-: **SRE + Data + Software Engineer**; Cerby
+**Cerby** (2022-Present)
+*Senior SRE, Data Engineer, Software Engineer*
+- Architected and developed the application authorization (RBAC) system.
+- Contributed to the design and development of numerous EPM features including Teams, Secrets, Collections, and Partnerships.
+- Designed and developed a global message bus system for the platform.
+- Created the Zero-knowledge and local-encryption architectures.
 
-- Architected and developed the application authorization (RBAC) system
-- Designed and contributed to a series of EPM features: Teams, Secrets, Collections, Partnerships
-- Designed and developed the platform global message bus system
-- Architected and developed the Zero-knowledge and local-encryption architectures
+**Wizeline** (2020-Present)
+*Cloud Operations Discipline Lead / Engineering Manager*
+- Set the direction for the SRE discipline by establishing OKRs, SRE Communities.
+- Improved the SRE discipline through coaching, mentoring, and initiating show-and-tell initiatives.
+- Grew the SRE and cloud organization through hiring, training, and publishing articles (8x growth).
+- Improved employee engagement.
+- Managed a multi-disciplinary team of up to 24 engineers.
 
-2020-present
-: **SRE + Cloud Operations Discipline Lead / Engineering Manager**; Wizeline
+**Wizeline** (2019-Present)
+*Senior Staff SRE / DevOps*
+- Led the architecture and development of the next-gen data platform initiative for a FinTech client.
+- Provided valuable guidance and input to multiple clients and projects.
+- Led the team to achieve AWS DevOps-competence.
 
-- Set direction for the SRE discipline: OKRs, SRE Communities.
-- Level up the discipline: Coaching, mentoring, show-and-tell initiatives.
-- Scale the SRE and cloud organization: Hiring (x8 growth), training, publishing articles.
-- Increase employee engagement.
-- Manage a multidiciplinary team of up to 24 engineers.
+**Wizeline** (2017-2019)
+*Senior Site Reliability Engineer / DevOps Engineer*
+- Managed cloud environments for various company and customer projects.
+- Enabled development teams to deploy releases following CI/CD practices.
+- Designed, planned, and implemented cloud solution architectures for web and data services.
+- Monitored and improved DevOps metrics.
+- Led SRE for the internal bots platform and other projects.
+- Conducted talks about DevOps practices, containerization, and CI/CD practices.
+- Prepared the team and infrastructure to successfully obtain a SOC2 certification.
 
-2019-present
-: **Senior Staff SRE / DevOps**; Wizeline
+**Continental** (2016-2017)
+*Systems Test Manager*
+- Managed a team of 5+ engineers across 4 simultaneous projects.
+- Implemented both traditional and Kanban methodologies for project planning, monitoring, controlling, and risk assessment.
+- Participated actively and collaborated globally within the test manager community.
 
-- Architected and lead the next-gen data platform initiative for a FinTech.
-- Guided and provided valuable input for multiple clients and projects.
-- Prepared and lead the team on getting the AWS DevOps-competence.
+**Continental** (2014-2017)
+*Test Automation Engineer*
+- Created the architecture and implemented the testing tool-chain and framework for the test department, catering to embedded systems.
+- Set up and managed Linux application servers for the QA department, including web applications, databases, GitLab, Nginx, RESTful APIs.
+- Served as the go-to person for programming and automation solutions.
+- Developed tooling applications for testing support using Ruby, Python, and Java (Backend and libraries).
+- Worked with the Tire Pressure Monitoring System (TPMS) algorithms and functions, the PASE system, and computer vision algorithms.
+- Designed and automated generic test specs for multiple functionalities and platforms.
 
-2017-2019
-:   **Senior Site Reliability Engineer / DevOps Engineer**; Wizeline
+**AppCo (Startup)** (2015-2017)
+*Lead Software Architect*
+- Led a team of 5 engineers.
+- Architected and designed software applications using Ruby on Rails, Android, Sinatra, NodeJS.
+- Conducted analysis, evaluation, and selection of development technologies.
+- Developed web and mobile applications.
+- Integrated with third-party services, such as Facebook, Google, Paypal, Conekta, Wordpress.
+- Automated deployment and provisioning.
 
-* Responsible for cloud environments for some of the company and customer projects.
-* Enabled development teams to deploy releases following CI/CD practices.
-* Designed, planned, and implemented cloud solution architectures for web and data services.
-* Implemented, monitored, and improved DevOps metrics.
-* Lead SRE for the internal bots platform and other projects.
-* Gave talks about DevOps practices, containerization, and CI/CD practices.
-* Successfully prepared the team and infrastructure to obtain a SOC2 certification.
-* SME: AWS, Kubernetes, Containers, Terraform, Cloud Architectures, and Software Architectures.
-* Experience with AWS, GCP, Azure, Microservices, Infrastructure as Code, Linux, Jenkins, CodeBuild, CircleCI, Vault, Helm, EKS, Kops, Airflow, ETLs.
-
-2016-2017
-:   **Systems Test Manager**; Continental
-
-* Managed a 5+ people team for 4 simultaneous projects.
-* Planning in traditional and Kanban methodologies, monitoring, controlling, and risk assessment.
-* Active participation and global collaboration in the test manager community.
-
-2014-2017
-:   **Test Automation Engineer**; Continental
-
-* Architected and implemented the test tool-chain and framework for the test department (test generators, keyword driven testing, model-based testing, data-driven testing, pairwise, automation, analysis, and reporting tools) for embedded systems.
-* Setup and administration of Linux application servers for the QA department (web applications, databases, Gitlab, Nginx, RESTful APIs).
-* Reference for programming and automation solutions.
-* Tooling application development for testing support using Ruby, Python, and Java (Backend and libraries).
-* Worked with the Tire Pressure Monitoring System (TPMS) algorithms and functions, the PASE system, and computer vision algorithms.
-* Designed and automated generic test specs for multiple functionalities and platforms.
-
-2015-2017
-:   **Lead Software Architect**; AppCo (Startup)
-
-* Lead a 5 people team.
-* Architecting and designing software applications using Ruby on Rails, Android, Sinatra, NodeJS.
-* Analysis, evaluation, and selection of development technologies.
-* Developed web and mobile applications.
-* Integration with third-party services, e.g., Facebook, Google, Paypal, Conekta, Wordpress.
-* Automated deployment and provisioning.
-
-2013-2014
-:   **Software Engineer**; Interactive Cozumel
+**Interactive Cozumel** (2013-2014)
+*Software Engineer*
 
 
 ## Education
 
-2009-2013
-:   **Bachelor's degree, Mechatronics, Robotics, and Automation Engineering**; The Institute of Technology at Linköping University
+**The Institute of Technology at Linköping University** (2009-2013)
+*Bachelor's degree, Mechatronics, Robotics, and Automation Engineering*
+- Completed courses in Signal Processing, Advanced Control, Machine Learning, Advanced Mathematics.
+- Participated in projects involving Machine Learning, DSP, Sensor Fusion Algorithms, and Digital Filters.
 
-* Courses in Signal Processing, Advanced Control, Machine Learning, Advanced Mathematics.
-* Projects in Machine Learning, DSP, Sensor Fusion Algorithms, and Digital Filters
-
-2009-2013
-:   **Bachelor's degree, Mechatronics, Robotics, and Automation Engineering**; Instituto Tecnológico y de Estudios Superiores de Monterrey / ITESM
+**Instituto Tecnológico y de Estudios Superiores de Monterrey / ITESM** (2009-2013)
+*Bachelor's degree, Mechatronics, Robotics, and Automation Engineering*
 
 
 
